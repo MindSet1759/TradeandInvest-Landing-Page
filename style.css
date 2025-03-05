@@ -1,0 +1,998 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Wales Sans Body", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.fa-envelope{
+    color:red ;
+    height: 32px;
+    width: 32px;
+    font-size: 16px;
+    position: relative;
+    top: 10px;
+}
+
+.fa-magnifying-glass{
+    color:red ;
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+    font-weight: 800;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.logo img{
+    color:rgb(227, 6, 19);
+    height: 32px;
+    width: 38px;
+    
+}
+
+.nav-bar{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 500px;
+    position: relative;
+    top: 10px;
+    left: 300px;
+
+}
+
+hr{
+    width: 100%;
+    
+    position: relative;
+    top: 20px;
+    border: 1px solid #d9d7d7
+  }
+
+  .nav-link{     
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: "Wales Sans Body", Helvetica, Arial, sans-serif;
+    flex-wrap: wrap;
+    gap: 80px;
+    
+    font-size: 18px;
+    position: relative;
+}
+
+    .nav-link li a{
+        text-decoration: none;
+        color: rgb(106, 106, 106);
+        font-size: 18px;
+        position: relative;
+        left: 10px;
+        top: 40px;
+        
+        font-weight: 400;
+    }
+    
+
+    .image-container {
+        position: relative;
+        top: 60px;
+        width: 100%;
+        max-height: 100%;
+        
+    }
+
+    
+   
+
+    .overlay h2{
+        font-family:"Wales Sans Body", Arial, Helvetica, sans-serif ;
+        font-size: 80px;
+        line-height: 1.0;
+        font-weight: 600;
+        color: white;
+        opacity: 1.0;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+       
+        
+    }
+
+    .overlay p{
+        font-family:"Wales Sans Body", Arial, Helvetica, sans-serif ;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        opacity: 1.0;
+        
+        position: absolute;
+        top: 70%;
+        left: 25%;
+    }
+
+    .line{
+        display: block;
+        justify-content: center;
+        position: relative;
+        top: 110px;
+        flex-direction: column-reverse;
+        left: 500px;
+    }
+
+    .line hr{
+        
+        font-weight: 600;
+        width: 1200px;
+        position: relative;
+        top: -50px;
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 2px solid #080808;
+        margin: 1em 0;
+        padding: 0;
+        
+    }
+
+    .line p{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .invested{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        flex-direction: row-reverse;
+        position: relative;
+        top: 120px;
+        left: -20px;
+    }
+
+    .invested iframe{
+        position: relative;
+        top: -25px;
+        width: 785px; 
+        height: 415px;
+    }
+
+    .line-one h2{
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .line-one p{
+        font-size: 18px;
+        font-weight: 300;
+        
+    }
+
+    .line-one hr{
+        
+        font-weight: 600;
+        width: 100px;
+        position: relative;
+        top: 0px;
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 4px solid #080808;
+        margin: 1em 0;
+        padding: 0;
+        
+    }
+
+    .line-two{
+        display: block;
+        justify-content: center;
+        position: relative;
+        top: 300px;
+        flex-direction: column-reverse;
+        left: 500px;
+    }
+
+    .line-two hr{
+        
+        font-weight: 600;
+        width: 1200px;
+        position: relative;
+        top: -50px;
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 2px solid #080808;
+        margin: 1em 0;
+        padding: 0;
+        
+    }
+    .line-two p{
+        font-size: 20px;
+        font-weight: 400;
+        
+    }
+
+    .gallery{
+        height: 786px;
+        width: 1200px;
+        background-color: rgb(237, 237, 236);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 5px;
+        gap: 20px;
+        position: relative;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        top:300px;
+        left: 500px;
+        padding: 15px;
+    }
+
+    .the-image{
+        position:relative;
+      }
+      
+     .the-image img{
+        height: 230px;
+        width: 368px;
+        opacity: 1.0;
+      }
+      
+      #overlay-text{
+        position:absolute;
+        left: 30%;
+        top: 70%;
+        font-size: 24px;
+        font-weight: 500;
+        color: white;
+        font-family:"Wales Sans Body", Arial, Helvetica, sans-serif ;
+        opacity: 1.0;
+      }
+
+      .line-three{
+        display: block;
+        justify-content: center;
+        position: relative;
+        top: 350px;
+        flex-direction: column-reverse;
+        left: 500px;
+    }
+
+      .line-three hr{
+        
+        font-weight: 600;
+        width: 1200px;
+        position: relative;
+        top: -50px;
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 2px solid #080808;
+        margin: 1em 0;
+        padding: 0;
+        
+    }
+    .line-three p{
+        font-size: 20px;
+        font-weight: 400;
+        
+    }
+
+    .gallery-one{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: relative;
+        top: 750px;
+        left: 275px;
+    }
+
+    .the-image-one{
+        position:relative;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+      }
+      
+     .the-image-one img{
+        height: 818px;
+        width: 589px;
+        opacity: 1.0;
+        transition: .5s all ease-in-out;
+      }
+
+      .the-image-one:hover img{
+        transform: scale(1.1);
+      }
+      
+      #overlay-text-one{
+        position:absolute;
+        left: 10%;
+        top: 65%;
+        color: white;
+        font-family:"Wales Sans Body", Arial, Helvetica, sans-serif ;
+        opacity: 1.0;
+      }
+
+      #overlay-text-one h2{
+        color: white;
+        font-size: 44px;
+        font-weight: 600;
+        font-family: "Wales Sans Headline", Helvetica, Arial, sans-serif;
+      }
+
+      #overlay-text-one h3{
+        color: white;
+        font-size: 34px;
+        font-weight: 100;
+        
+        font-weight: "Wales Sans Headline", Helvetica, Arial, sans-serif;
+      }
+
+      #overlay-text-one p{
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+      }
+      #overlay-text-one button{
+        color: white;
+        font-size: 12px;
+        background-color: transparent;
+        height: 20px;
+        width: 110px;
+        padding: 5px;
+        border-radius: 20px;
+        border: 1px solid white;
+        margin-left: 150px;
+        
+      }
+
+      #overlay-text-one button p{
+        color: white;
+        font-size: 12px;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+        position: relative;
+        top: -3px;
+      }
+
+      .gallery-two{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: relative;
+        top: 690px;
+        left: 122px;
+      }
+
+      .container{
+        height: 630px;
+        width: 283.5px;
+        border: 1px solid gainsboro;
+        background-color: transparent;
+        position: relative;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+       
+      }
+
+      .container img{
+        height: 281.5px;
+        width: 281.5px;
+        transition: .5s all ease-in-out;
+        
+      }
+
+      .container:hover img{
+        transform: scale(1.1);
+      }
+
+      .container h2{
+        font-size: 22px;
+        font-weight: 600;
+        font-family: "Wales Sans Headline", Helvetica, Arial, sans-serif;
+        padding-bottom: 10px;
+        color: black;
+        padding-left: 10px;
+      }
+
+      .container h6{
+        font-size: 18px;
+        font-weight: 300;
+        font-family: "Wales Sans Headline", Helvetica, Arial, sans-serif;
+        padding-bottom: 5px;
+        color: rgb(74, 74, 73);
+        padding-left: 10px;
+      }
+
+      .container p{
+        font-size: 14px;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+        padding-left: 10px;
+        color: rgb(74, 74, 73);
+        
+      }
+
+      .container button{
+        height: 20px;
+        width: 150px;
+        background-color: transparent;
+        border: 1px solid rgb(74, 74, 73);
+        border-radius: 15px;
+        color: rgb(74, 74, 73);
+        position: relative;
+        left: 10px;
+        top: 60px;
+        
+      }
+
+      .container #north{
+        height: 20px;
+        width: 81px;
+        background-color: transparent;
+        border: 1px solid rgb(74, 74, 73);
+        border-radius: 15px;
+        color: rgb(74, 74, 73);
+       
+      }
+
+      .container #north p{
+       
+        font-size: 12px;
+        font-family: "Wales Sans Headline", Helvetica, Arial, sans-serif;
+        color: rgb(74, 74, 73);
+        left: -3px;
+        position: relative;
+      } 
+
+      .container button p{
+        font-size: 12px;
+        font-family: "Wales Sans Headline", Helvetica, Arial, sans-serif;
+        color: rgb(74, 74, 73);
+        left: -4px;
+        position: relative;
+      }
+
+      .svg-one{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 10px;
+        position: relative;
+        left: -35px;
+        
+      }
+      .svg-two{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 10px;
+        position: relative;
+        left: -62px;
+        
+      }
+      .svg-three{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 10px;
+        position: relative;
+        left: -43px;
+        top: 6px;
+        
+      }
+      .svg-four{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 10px;
+        position: relative;
+        left: -78px;
+        
+      }
+
+      .svg-one p{
+        font-size: 12px;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+        position: relative;
+        left: -10px;
+        color: rgb(74, 74, 73);
+      }
+      .svg-two p{
+        font-size: 12px;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+        position: relative;
+        left: -10px;
+        color: rgb(74, 74, 73);
+      }
+      .svg-three p{
+        font-size: 12px;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+        position: relative;
+        left: -10px;
+        color: rgb(74, 74, 73);
+      }
+      .svg-four p{
+        font-size: 12px;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+        position: relative;
+        left: -10px;
+        color: rgb(74, 74, 73);
+      }
+      
+      
+
+       .container .svg-image{
+        color: red;
+        background-color: transparent;
+        height: 28px;
+        width: 28px;
+      
+      }
+
+      .svg p{
+        font-size: 12px;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+        position: relative;
+        left: -10px;
+        color: rgb(74, 74, 73);
+      }
+
+      .line-four{
+        display: block;
+        justify-content: center;
+        position: relative;
+        top: 430px;
+        flex-direction: column-reverse;
+        left: 500px;
+    }
+
+      .line-four hr{
+        
+        font-weight: 600;
+        width: 1200px;
+        position: relative;
+        top: -50px;
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 2px solid #080808;
+        margin: 1em 0;
+        padding: 0;
+        
+    }
+    .line-four p{
+        font-size: 20px;
+        font-weight: 400;
+        
+    }
+
+    .gallery-three{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: relative;
+        top: 690px;
+        left: 122px;
+      }
+
+      .container-one{
+        height: 510px;
+        width: 283.5px;
+        border: 1px solid gainsboro;
+        background-color: transparent;
+        position: relative;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        
+       
+      }
+
+      .container-one img{
+        height: 281.5px;
+        width: 281.5px;
+        transition: .5s all ease-in-out;
+        
+      }
+
+      .container-one:hover img{
+        transform: scale(1.1);
+        
+      }
+
+      .container-one h2{
+        font-size: 22px;
+        font-weight: 600;
+        font-family: "Wales Sans Headline", Helvetica, Arial, sans-serif;
+        padding-bottom: 10px;
+        color: black;
+        padding-left: 10px;
+      }
+
+      .container-one h6{
+        font-size: 18px;
+        font-weight: 300;
+        font-family: "Wales Sans Headline", Helvetica, Arial, sans-serif;
+        padding-bottom: 5px;
+        color: rgb(74, 74, 73);
+        padding-left: 10px;
+      }
+
+      .container-one p{
+        font-size: 14px;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+        padding-left: 10px;
+        color: rgb(74, 74, 73);
+        
+      }
+
+      .svg-five{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 10px;
+        position: relative;
+        left: -50px;
+        top: -20px;
+        
+      }
+      .svg-six{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 10px;
+        position: relative;
+        left: -62px;
+        top: 30px;
+        
+      }
+      .svg-seven{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 10px;
+        position: relative;
+        left: -54px;
+        top: 6px;
+        
+      }
+      .svg-eight{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 10px;
+        position: relative;
+        left: -49px;
+        top: 30px;
+        
+      }
+
+      .container-one .svg-image{
+        color: red;
+        background-color: transparent;
+        height: 28px;
+        width: 28px;
+      
+      }
+
+      .svg-five p{
+        font-size: 12px;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+        position: relative;
+        left: -10px;
+        color: rgb(74, 74, 73);
+      }
+      .svg-six p{
+        font-size: 12px;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+        position: relative;
+        left: -10px;
+        color: rgb(74, 74, 73);
+      }
+      .svg-seven p{
+        font-size: 12px;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+        position: relative;
+        left: -10px;
+        color: rgb(74, 74, 73);
+      }
+      .svg-eight p{
+        font-size: 12px;
+        font-family: "Wales Serif", Georgia, "Times New Roman", serif;
+        position: relative;
+        left: -10px;
+        color: rgb(74, 74, 73);
+      }
+
+      .newsletter{
+        width: 100%;
+        height: 297.8px;
+        background-color: rgb(51,51,51);
+        position: relative;
+        top: 500px;
+      }
+
+      .newsletter p{
+        color: white;
+        font-family: "Wales Sans Headline", Helvetica, Arial, sans-serif;
+        font-size: 31.5px;
+        font-weight: 500;
+        position: relative;
+        top: 80px;
+        left: 500px;
+
+      }
+
+      .subscribe{
+        display: inline-block;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+      }
+
+      .subscribe p{
+        color: rgb(179, 179, 179);
+        font-size: 18px;
+        line-height: 1.5;
+        font-family: "Wales Sans Body", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        position: relative;
+        top: 110px;
+        left: 500px;
+      }
+
+      .subscribe button{
+        height: 48px;
+        width: 265px;
+        color: white;
+        font-size: 18px;
+        background-color: rgb(227, 6, 19);
+        border-radius: 6px;
+        padding: 15px 20px 20px 15px;
+        border: 0;
+        position: relative;
+        left: 1223px;
+        top: 20px;
+      }
+
+      
+
+      .line-five hr{
+        
+        font-weight: 600;
+        width: 100%;
+        position: relative;
+        top: 540px;
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 2px solid #a09e9e;
+        margin: 1em 0;
+        padding: 0;
+      }
+
+      .nav-link-foot{
+        list-style: none;
+        display: flex;
+        margin: 0px;
+        flex-wrap: wrap;
+        gap: 60px;
+        font-size: 16px;
+        position: relative;
+        float: left;
+        top: 540px;
+        left: 500px;
+        }
+
+        .nav-link-foot li a{
+          color: rgb(86, 86, 90);
+          font-size: 15px;
+          font-family: "Wales Sans Body", Helvetica, Arial, sans-serif; 
+          text-decoration: none;
+        }
+
+        .nav-link-foot li a i{
+          color:rgb(227, 6, 19) ;
+          font-size: smaller;
+          position: relative;
+          list-style: none;
+          left: 20px;
+          top: 2px;
+        }
+
+        .nav-link-foot p{
+          font-size: 16px;
+          font-weight: 600;
+          font-family: "Wales Sans Body", Helvetica, Arial, sans-serif; 
+          color: rgb(29, 29, 27);
+        }
+
+      .nav-link-one{     
+    
+        list-style: none;
+        display: flex;
+        margin: 0px;
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 16px;
+        position: relative;
+        float: right;
+        top: 540px;
+        left: -210px;
+        
+        }
+
+        .nav-link-one p{
+          font-size: 14px;
+          font-weight: 600;
+          font-family: "Wales Sans Body", Helvetica, Arial, sans-serif; 
+          color: rgb(29, 29, 27);
+        }
+
+        .nav-link-one button{
+          height: 25px;
+          width: 43px;
+          background-color:rgb(227, 6, 19) ;
+          border: 0;
+          border-radius: 14.25px;
+          position: relative;
+          top: -5px;
+
+        }
+
+        .nav-link-one button i{
+          color: white;
+          font-size: 10px;
+          position: relative;
+          left: -12px;
+        }
+
+        .nav-link-one .circle{
+          position: relative;
+          height: 20px;
+          width: 20px;
+          background-color: rgb(255, 255, 255);
+          border-radius: 50%;
+          border: 0;
+          position: relative;
+          top: -3px;
+          left: -33px;
+        }
+
+        .line-six hr{
+        
+          font-weight: 600;
+          width: 100%;
+          position: relative;
+          top: 550px;
+          display: block;
+          height: 1px;
+          border: 0;
+          border-top: 2px solid #c1bbbb;
+          margin: 1em 0;
+          padding: 0;
+        }
+
+        .nav-link-three{     
+    
+          list-style: none;
+          display: flex;
+          margin: 0px;
+          flex-wrap: wrap;
+          gap: 0px;
+          font-size: 14px;
+          position: relative;
+          float: left;
+          top: 550px;
+          left: 500px;
+          color: rgb(86, 86, 90);
+          
+          }
+
+          .nav-link-four{     
+    
+            list-style: none;
+            display: flex;
+            margin: 0px;
+            flex-wrap: wrap;
+            gap: 0px;
+            font-size: 14px;
+            position: relative;
+            float: right;
+            top: 550px;
+            left: -250px;
+            color: rgb(86, 86, 90);
+            
+            
+            }
+
+            table, td, tr {
+              border: 0px solid black;
+            }
+            
+            table {
+              border-collapse: separate;
+              border-spacing: 0px 20px;
+              width: 40%;
+              position: relative;
+              top: 600px;
+              left: 240px;
+              font-size: 14px;
+              font-family: "Wales Sans Body", Helvetica, Arial, sans-serif; 
+              color: rgb(86, 86, 90);
+              
+            }
+
+            .membership-logo img{
+              position: relative;
+              top: 650px;
+              height:68px;
+               width:95px;
+              left:1000px ;
+
+            }
+            
+  
+
+        
+
+        
+
+
+    
+        
+       
+    
